@@ -26,7 +26,7 @@ void loop() {
   int sensorValue   = analogRead(sensorPin);                // read the value from the sensor
   int delay_msec    = map(sensorValue, 0, 1023, 100, 1000); // Map the sensor input value
                                                             // (ranges from 0 to 1023) to
-                                                            // milliseconds (from 100 to 2000).
+                                                            // milliseconds (from 100 to 1000).
   Serial.print("Raw sensor value: ");
   Serial.print(sensorValue);
   Serial.print(", mapped value: ");
