@@ -27,7 +27,7 @@
 
   This example code is in the public domain.
 
-  http://www.arduino.cc/en/Tutorial/Tone
+  https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/
 
   Modified by Peter Dalmaris.
 */
